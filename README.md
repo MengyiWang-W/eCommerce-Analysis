@@ -2,7 +2,6 @@
 
 > An end-to-end data analytics project simulating a multi-channel retail business (Taobao, Shopify, POS) across 2024–2025. The project covers the full data pipeline — from raw data generation and ETL, to SQL-based business logic, to interactive dashboards in Excel and Tableau, and finally to business insights with actionable recommendations.
 
----
 
 ## 📊 Dashboard Previews
 ### Excel Dashboards
@@ -14,7 +13,6 @@
 ![Tableau Contribution](tableau/screenshots/Contribution%20Analysis.png)
 ![Tableau Operational Rhythm](tableau/screenshots/Operational%20Rhythm.png)
 
----
 
 ## 🛠️ Tech Stack
 | Layer | Tools & Languages |
@@ -27,7 +25,6 @@
 | **Business Documentation** | Markdown (insights.md, README.md) |
 | **Version Control** | Git / GitHub |
 
----
 
 ## 📁 Project Structure
 eCommerce Analysis/
@@ -80,17 +77,22 @@ eCommerce Analysis/
 
 │ └── operations_dashboard.xlsx # Interactive Excel Dashboard
 
+│ └──screenshots/# Dashboard screenshots 
+
 ├── tableau/
 
-│ └── management_dashboard.twbx # Tableau workbook (3 dashboards)
+│ └── files
 
-├── screenshots/ # Dashboard screenshots for README
+│ │ ├── eCommerce Analysis.twb
+
+│ │ ├── eCommerce Analysis.twbx
+
+│ └── screenshots/ # Dashboard screenshots for README
 
 ├── insights.md # Full business insights report
 
 └── README.md # This file
 
----
 
 ## 🔧 Environment Setup
 
