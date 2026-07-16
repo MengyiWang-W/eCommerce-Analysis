@@ -108,28 +108,28 @@ sqlite3 is built-in with Python 3.x. No separate installation is required.
 ## 🚀 How to Run
 1. Generate Raw Data
 bash
-'''
+```
 cd python
 python generate_data.py
-'''
+```
 2. Run ETL Pipeline
 bash
-'''
+```
 cd python
 python ETL_pipeline.py
-'''
+```
 3. Create SQL Views
 bash
-'''
+```
 cd python
 python create_views.py
-'''
+```
 4. Export Views to CSV
 bash
-'''
+```
 cd python
 python export_views.py
-'''
+```
 5. Explore Dashboards
 Excel: Open excel/operations_dashboard.xlsx
 Tableau: Open tableau/eCommerce Analysis.twbx
