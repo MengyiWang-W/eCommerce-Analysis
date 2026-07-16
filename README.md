@@ -100,11 +100,12 @@ eCommerce Analysis/
 - **Microsoft Excel** (2019+ recommended)
 
 ### Python Dependencies
-```bash
+bash
+```
 pip install pandas
 sqlite3 is built-in with Python 3.x. No separate installation is required.
-
-🚀 How to Run
+```
+## 🚀 How to Run
 1. Generate Raw Data
 bash
 '''
@@ -133,7 +134,7 @@ python export_views.py
 Excel: Open excel/operations_dashboard.xlsx
 Tableau: Open tableau/eCommerce Analysis.twbx
 
-✅ How to Verify the Pipeline Works
+## ✅ How to Verify the Pipeline Works
 After running the pipeline, you should see the following outputs:
 
 data/processed/ecommerce.db → ~50MB SQLite file containing all cleaned data.
@@ -155,7 +156,7 @@ text
 ✅ EXPORTED: agg_orders_daily_revenue -> data/processed/exports/agg_orders_daily_revenue.csv (731 Rows)
 🎉 EXPORTED ALL THE VIEWS SUCCESSFULLY!
 
-📊 Data Dictionary
+## 📊 Data Dictionary
 This project uses simulated eCommerce data covering 2024–2025 across three channels:
 
 Channel	Description	Payment Methods	Key Fields
@@ -164,7 +165,7 @@ Shopify	Cross-border independent store	Credit Card, PayPal	City (US cities), Ref
 POS	Offline retail stores	Alipay, WeChat Pay, Cash, Credit Card	Payment_Method
 The dataset includes ~300,000 orders (100K per channel), with daily and monthly aggregations pre-computed via SQL views.
 
-📌 Data Refresh Workflow
+## 📌 Data Refresh Workflow
 When new data is generated or SQL logic changes:
 
 Re-run ETL → python python/ETL_pipeline.py
@@ -174,7 +175,7 @@ Refresh dashboards:
 Excel: Click Data → Refresh All
 Tableau: Click Data → Refresh All Data Sources
 
-📈 Key Business Insights
+## 📈 Key Business Insights
 The full analysis is documented in insights.md. Below is a summary:
 
 1. Seasonal Patterns
@@ -196,9 +197,9 @@ Align post-holiday promotions with the actual Spring Festival recovery window (3
 Treat Valentine's Day as a standalone campaign only when the calendar gap exceeds 10 days.
 Increase inventory by 20–30% for gifting categories (electronics, beauty, packaged food) before major peaks.
 
-📄 License
+## 📄 License
 This project is for educational and portfolio purposes only. All data is simulated.
 
-🙋‍♀️ About the Author
+##  About the Author
 Carmen Wang — Data Analyst passionate about transforming raw data into actionable business insights.
 GitHub: https://github.com/MengyiWang-W
