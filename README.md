@@ -149,30 +149,41 @@ Create views output:
 text
 ✅ Executed successfully: DROP VIEW IF EXISTS agg_orders_daily_revenue...
 ✅ Executed successfully: CREATE VIEW agg_orders_daily_revenue AS...
+
 🎉 All views created successfully!
 Export views output:
 
 text
 ✅ EXPORTED: agg_orders_daily_revenue -> data/processed/exports/agg_orders_daily_revenue.csv (731 Rows)
+
 🎉 EXPORTED ALL THE VIEWS SUCCESSFULLY!
 
 ## 📊 Data Dictionary
 This project uses simulated eCommerce data covering 2024–2025 across three channels:
 
 Channel	Description	Payment Methods	Key Fields
+
 Taobao	Domestic online platform	Online payments (Alipay, etc.)	Category, Customer_ID
+
 Shopify	Cross-border independent store	Credit Card, PayPal	City (US cities), Refund
+
 POS	Offline retail stores	Alipay, WeChat Pay, Cash, Credit Card	Payment_Method
+
 The dataset includes ~300,000 orders (100K per channel), with daily and monthly aggregations pre-computed via SQL views.
 
 ## 📌 Data Refresh Workflow
 When new data is generated or SQL logic changes:
 
 Re-run ETL → python python/ETL_pipeline.py
+
 Re-create views → python python/create_views.py
+
 Re-export CSVs → python python/export_views.py
+
 Refresh dashboards:
+
 Excel: Click Data → Refresh All
+
 Tableau: Click Data → Refresh All Data Sources
 
 ## 📈 Key Business Insights
