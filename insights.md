@@ -3,7 +3,6 @@
 ## Executive Summary
 This document consolidates key findings from the 2024–2025 eCommerce sales data, covering three core dimensions: seasonal patterns and holiday effects, channel contribution structure, and weekday–weekend performance dynamics. Each insight is supported by data evidence and translated into actionable business recommendations.
 
----
 
 ![alt text](images/image.png)
 ![alt text](images/image-1.png)
@@ -36,7 +35,6 @@ The February decline aligns precisely with the Spring Festival holiday period:
 #### Summary
 The 2024–2025 revenue data shows a clear and repeatable seasonal cycle driven by the Spring Festival, with recovery pace and adjacent holiday performance determined by the timing of the holiday. These findings provide a data-backed framework for 2026 promotional scheduling, inventory management, and campaign planning.
 
----
 
 ### 1.2 2025 YoY Revenue Growth
 
@@ -63,7 +61,6 @@ The February 2025 YoY decline is rooted in a calendar-driven distortion rather t
 #### Summary
 The February 2025 YoY decline of -3.03% is a calendar-driven anomaly rather than a signal of weakening business performance. The early Spring Festival compressed disruption into a single month, while the strong March rebound confirms the underlying business remains healthy. This highlights the importance of contextualizing YoY comparisons — particularly when holiday timing shifts between years — and adjusting inventory, budget, and promotion calendars accordingly.
 
----
 
 ![alt text](images/image-4.png)
 
@@ -98,7 +95,6 @@ These months consistently fall below the monthly average, with February recordin
 - **Promotions**: Run 48-hour flash sales or clearance events during these months, with discount depths of 10–15% off regular prices (limited to slow-moving inventory). Avoid large-scale promotional campaigns that require heavy inventory commitments.
 - **Measurable Goal**: Limit revenue decline in these months to ≤5% below the previous month (for non-February trough months) and ≤10% for February, aligning with historical seasonal patterns.
 
----
 
 ![alt text](images/image-9.png)
 
@@ -150,7 +146,6 @@ Among major U.S. cities, Miami records the highest revenue. In a real-world scen
 - **Inventory**: Increase inventory for Miami-tailored categories (e.g., surfwear, swimwear, travel accessories, souvenirs) by 20–30%, with stock readiness by November 20 and maintained through April.
 - **Promotions**: Launch campaigns targeting Miami travelers from late November, aligning with the start of the U.S. winter travel season. Reduce ad spend by mid-March, as demand typically stabilizes after peak travel period.
 
----
 
 ![alt text](images/image-10.png)
 
@@ -184,7 +179,6 @@ The small magnitude of the gap suggests that the business is **not highly sensit
 | **Monday – Friday** | Online Offensive | Allocate ~80% of digital marketing budget; prioritize Taobao livestreams and Shopify EDM campaigns. |
 | **Saturday – Sunday** | Offline Experience | Host in-store events; shift online strategy to engagement (wish-listing, content, browse-only) rather than aggressive conversion. |
 
----
 
 ![alt text](images/image-11.png)
 
